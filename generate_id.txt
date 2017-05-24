@@ -1,0 +1,6 @@
+http://localhost:20131/Cimahi/map/generate_id/6/32.77.02.02
+
+Melong		32.77.01.01		14
+Cibeureum	32.77.01.02		15
+Baros		32.77.02.01		5
+Cigugur		32.77.02.02		6

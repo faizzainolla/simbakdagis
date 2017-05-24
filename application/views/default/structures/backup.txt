@@ -1,0 +1,17 @@
+	<div id="panel" class="panel show-panel">
+        <div id="toggle-button">Hide</div><br />
+        This is a side panel!<br />
+        It has lots of cool stuff in it!<br />
+    </div>
+    <div id="map-area">
+    	<div id="map_view"></div>
+    </div>
+	
+	<!-- Right Panel -->
+	<div class="abahsoft_right_content">
+			<div class="abahsoft_right_content_data" id="abahsoft_right_content_petatematik">
+			<h3><b>Pilih Kelompok Aset</b></h3>
+			
+ 
+		</div>
+	</div>

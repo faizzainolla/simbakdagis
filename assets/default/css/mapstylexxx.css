@@ -1,0 +1,619 @@
+::-webkit-scrollbar { width: 6px; height: 6px;}
+::-webkit-scrollbar-track {  background-color: #f70;}
+::-webkit-scrollbar-track-piece { background-color: #ccc;}
+::-webkit-scrollbar-thumb { height: 50px; background-color: #f70; }
+::-webkit-scrollbar-corner { background-color: #f70;}}
+::-webkit-resizer { background-color: #f70;}
+	body {
+		background-color: #cccccc;
+
+	}
+.abahsoft_clearfix {
+	 
+}
+
+.abahsoft_header_back {
+	height: 140px;
+	position: fixed;
+	background-position: right center;
+	background-repeat: no-repeat;
+	background-image: url('../img/banner.jpg');
+	background: #ddd;
+	z-index: 90;
+	width: 100%;
+	top: 0px;
+}
+.abahsoft_header_front{
+	background-color: #ffffff;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-image: url('../img/banner.jpg');
+	height: 140px;
+	border-top: 4px solid #f70;
+	z-index: 70;
+	position: fixed;
+	width: 100%;
+	top: 0px;
+}
+.abahsoft_header_front_login {
+	background-color: #ffffff;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-image: url('../img/banner.jpg');
+	height: 150px;
+	border-top: 4px solid #f70;
+	position: fixed;
+	width: 100%;
+}
+	.abahsoft_menu_headerxx {
+		height: 70px;
+		width: 250px;
+		background: #f8f8f8;	 
+		margin-top: px;
+		z-index: 92;
+	}
+	
+	.abahsoft_menu_header {
+	position: fixed;
+	width: 200px;
+	top: 4px;
+	left: 0px;
+	z-index: 110;
+	height: 70px;
+			
+}
+		.abahsoft_menu_current {
+			background-color: transparent;
+			color: #24A0DA;
+			height: 50px;
+			font-family: Arial, Sans-Serif;
+		}
+			.abahsoft_menu_current_icon {
+				font-size: 36px;
+				height: 38px;
+				padding: 6px;
+				width: 50px;
+				font-weight: bold;
+				float: left;
+				text-align: center;
+				color: #ff7700;
+			}
+			.abahsoft_menu_current_name {
+				height: 20px;
+				font-size: 18px;
+				font-weight: bold;
+				line-height: 20px;
+				padding: 15px 0px;
+				float: left;
+			}
+		.abahsoft_menu_arrow {
+			background-color: #888;
+			height: 20px;
+			cursor: pointer;
+			background-image: url('../img/down.png');
+			background-position: center center;
+			background-repeat: no-repeat;
+		}
+
+	.abahsoft_site_logo {
+		background-color: #f5f5f5;
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-image: url('../img/logo-asmat.jpg');
+		height: 68px;
+		width: 78px;
+		border: 1px solid #e5e5e5;
+		float: left;
+		cursor: pointer;
+		margin-top: -4px;
+	}
+
+	.abahsoft_site-tag {
+		height: 38px;
+		padding: 16px 0 18px 10px;
+		margin-top: -4px;
+		float: left;
+		font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, Sans-Serif;
+	}
+		.mk_site_tag_parrent {
+			height: 20px;
+			font-size: 18px;
+			font-weight: bold;
+			color: #fff;
+		}
+		.mk_site_tag_child {
+			height: 14px;
+			font-size: 12px;
+			color: #ccc;
+			margin-top: -4px;
+		}
+.abahsoft_app_menu {
+	width: 249px;
+	background-color: #fff;
+	top: 0px;
+	border-bottom: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	z-index: 89;
+	float:left;
+	position:absolute;
+}
+	.abahsoft_app_menu > ul {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+	}
+	.abahsoft_app_menu > ul li {
+		border: 0;
+		color: #222;
+		background: #fff;
+		margin: 0;
+		height: 28px;
+		font-size: 14px;
+		border-bottom: 1px solid #ccc;
+		padding: 10px;
+		padding-left: 20px;
+		padding-top: 17px;
+		cursor: pointer;
+	}
+	.abahsoft_app_menu > ul li.abahsoft_app_menu_hover {
+		background-color: #f5f5f5;
+	}
+	.abahsoft_app_menu > ul li.abahsoft_app_menu_selected {
+		color: #f70 !important;
+		font-weight: bold;
+	}
+		.abahsoft_app_menu > ul li .abahsoft_menu_icon {
+			font-size: 24px;
+			height: 24px;
+			position: absolute;
+		}
+		.abahsoft_app_menu > ul li .abahsoft_menu_text {
+			font-size: 16px;
+			height: 16px;
+			padding: 4px 4px 4px 35px;
+		}
+
+.abahsoft_left_content {
+	position: fixed;
+	top: 155px;
+	left: 0px;
+	background-color: #f7f7f7;
+	z-index: 40;
+	padding: 30px 20px 20px 20px;
+	overflow: auto;
+	display: none;
+}
+	.abahsoft_left_content_data {
+		background-color: #fff;
+		padding: 10px;
+	}
+.abahsoft_right_content {
+	position: fixed;
+	width: 300px;
+	top: 160px;
+	right: 0px;
+	background-color: #fff;
+	border-left: 1px solid #aaa;
+	z-index: 41;
+	overflow: hidden;
+}
+	.abahsoft_right_content_data {
+		padding: 18px 10px 13px 10px;
+		position: absolute;
+		top: 0px;
+		right: -300px;
+		width: 280px;
+		overflow: auto;
+		background-color: #fff;
+		z-index: 30;
+	}
+		.abahsoft_right_custom_recap_box {
+			padding: 10px 0 0 0;
+		}
+			#abahsoft_right_custom_recap {
+				display: none;
+			}
+			.abahsoft_right_custom_recap_items {
+				font-size: 12px;
+				line-height: 12px;
+				border-top: 1px dashed #ccc;
+				padding: 2px;
+			}
+				.abahsoft_right_custom_recap_items > div {
+					color: #666;
+					font-size: 9px;
+				}
+		.abahsoft_right_list_menu > ul {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+		}
+		.abahsoft_right_list_menu > ul li {
+			cursor: pointer;
+			margin-top: 4px;
+			border: 2px solid #aaa;
+			padding: 10px 20px;
+		}
+		.abahsoft_right_list_menu_hover {
+			border: 2px solid #666 !important;
+		}
+		.abahsoft_right_list_menu_selected {
+			border: 2px solid #666 !important;
+			background-color: #444;
+			color: #fff;
+			cursor: default !important;
+			font-weight: bold;
+		}
+
+		.abahsoft_right_list_menu_dashboard > ul {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+		}
+		.abahsoft_right_list_menu_dashboard > ul li {
+			cursor: pointer;
+			margin-top: 4px;
+			border: 2px solid #aaa;
+			padding: 10px 20px;
+		}
+		.abahsoft_right_list_menu_dashboard_hover {
+			border: 2px solid #666 !important;
+		}
+		.abahsoft_right_list_menu_dashboard_selected {
+			border: 2px solid #666 !important;
+			background-color: #444;
+			color: #fff;
+			cursor: default !important;
+			font-weight: bold;
+		}
+
+		.abahsoft_right_list_menu_kuisoner > ul {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+		}
+		.abahsoft_right_list_menu_kuisoner > ul li {
+			cursor: pointer;
+			margin-top: 4px;
+			border: 2px solid #aaa;
+			padding: 10px 20px;
+		}
+		.abahsoft_right_list_menu_kuisoner_hover {
+			border: 2px solid #666 !important;
+		}
+		.abahsoft_right_list_menu_kuisoner_selected {
+			border: 2px solid #666 !important;
+			background-color: #444;
+			color: #fff;
+			cursor: default !important;
+			font-weight: bold;
+		}
+
+		.abahsoft_right_petatematik_menu > ul {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+		}
+		.abahsoft_right_petatematik_menu > ul li {
+			cursor: pointer;
+			margin-top: 4px;
+			border: 2px solid #aaa;
+			padding: 10px 20px;
+		}
+		.abahsoft_right_petatematik_menu_hover {
+			border: 2px solid #666 !important;
+		}
+		.abahsoft_right_petatematik_menu_selected {
+			border: 2px solid #666 !important;
+			background-color: #444;
+			color: #fff;
+			cursor: default !important;
+			font-weight: bold;
+		}
+
+.abahsoft_app_name {
+	position: fixed;
+	top: 4px;
+	right: 63px;
+	z-index: 92;
+	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, Sans-Serif;
+	font-size: 18px;
+	font-weight: bold;
+	height: 20px;
+	padding: 18px 10px 20px 0px;
+	color: #fff;
+}
+.abahsoft_app_logout {
+	position: fixed;
+	width: 62px;
+	top: 4px;
+	right: 0px;
+	z-index: 92;
+	font-size: 48px;
+	font-weight: bold;
+	height: 50px;
+	background-color: #f5f5f5;
+	cursor: pointer;
+	border-left: 1px solid #eee;
+	text-align: center;
+	padding: 4px 0;
+	color: #fff;
+}
+.abahsoft_app_logout_hover {
+	color: #f00;
+}
+
+	.abahsoft_quick_search {
+		z-index: 38;
+		position: fixed;
+		top: 180px;
+		left: 20px;
+	}
+		#abahsoft_quick_search_result {
+			color: #777;
+		}
+			.abahsoft_quick_search_list {
+				padding: 5px;
+				color: #666;
+				border-bottom: 1px dashed #ccc;
+				background-color: #fff;
+				height: 18px;
+			}
+			.abahsoft_quick_search_list:hover {
+				color: #111;
+				background-color: #f5f5f5;
+			}
+
+.abahsoft_news_ticker_back {
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+	height: 40px;
+	background-color: #eee;
+	z-index: 90;
+}
+
+.abahsoft_news_ticker_front {
+	position: fixed;
+	bottom: 0px;
+	color: #444;
+	width: 100%;
+	background-color: #f5f5f5;
+	z-index: 90;
+	border-top: 1px solid #aaa;
+	font-size: 14px;
+	height:16px;
+	padding: 10px 0 10px 0;
+	text-align: center;
+}
+
+
+
+
+#abahsoft_content_responden_detail {
+	
+}
+
+#abahsoft_respondens tbody tr td, #abahsoft_users tbody tr td {
+	font-size: 11px;
+}
+
+.aLignLeft {
+	text-align: left;
+}
+.aLignCenter {
+	text-align: center;
+}
+.aLignRight {
+	text-align: right;
+}
+
+.paginate_button {
+	border: 1px solid #ccc;
+	padding: 5px 10px;
+	margin: 2px;
+	text-decoration: none;
+	cursor: pointer;
+	color: #444;
+}
+
+.paginate_active {
+	padding: 5px 10px;
+	color: #444;
+	font-weight: bold;
+	cursor: default;
+	border: 1px solid #aaa !important;
+	background-color: #f5f5f5;
+	text-decoration: none;
+	margin: 2px;
+}
+
+.paginate_button:hover, .paginate_active:hover {
+	color: #444;
+	border: 1px solid #aaa;
+	background-color: #f5f5f5;
+	text-decoration: none;
+}
+
+.dataTables_info {
+	float: left;
+	font-size: 10px;
+	color: #666;
+}
+
+.dataTables_paginate {
+	float: right;
+}
+
+.dataTables_filter {
+	float: right;
+}
+.abahsoft_respondens_length {
+	float: left;
+}
+.dataTables_length {
+	display: none;
+}
+
+
+#abahsoft_table_responden_detail {
+	font-size: 12px;
+}
+
+.abahsoft_rekap_summary_box {
+	padding: 0 0 25px 30px;
+	margin-top: -10px;
+}
+
+
+/* SoKA */
+	.abahsoft_form_option {
+		padding: 4px;
+		padding-bottom: 0px;
+		padding-top: 8px;
+		border: 1px solid transparent;
+	}
+		.abahsoft_form_option_number {
+			text-align: right;
+			padding-right: 5px;
+			width: 20px;
+			float: left;
+		}
+		.abahsoft_form_option_delete_hover {
+			border: 1px solid #fdd;
+			background: #fee;
+		}
+		.abahsoft_form_option_add_hover {
+			border: 1px solid #cfc;
+			background: #efe;
+		}
+	.abahsoft_option_child_padding {
+		padding-left: 30px;
+	}
+
+	.abahsoft_form_kuisoner_error {
+		border-color: #f22 !important;
+		background-color: #faa !important;
+	}
+/* EoKA */
+
+/*abah tambah side panel*/
+.panel {
+    /*top:10px;*/
+	position: absolute;
+    width: 150px;
+    height: 200%;
+    background: white; 
+}
+
+.show-panel {
+    left: -140px;
+}
+
+.hide-panel {
+    left: 0px
+}
+
+#toggle-button {
+    position: absolute;
+    background: silver;
+    border: 0px solid black;
+    cursor: pointer;	
+}
+
+.show-panel #toggle-button {
+    right: 0px;
+}
+
+.hide-panel #toggle-button {
+    left: 150px;
+}
+
+.show-panel+#panel2 {
+    left: -150px;
+}
+
+.hide-panel+#panel2{
+    left: 0px;
+}
+
+.abahsoft_map_area {	 
+	position: absolute;
+	top:160px;
+}
+
+#panel2{
+    /*top:10px;*/
+	position: absolute;
+    width: 100%;
+    height: 100%;
+    background: white; 
+}
+
+#abahsoft_map_view{
+ 	left:170px;
+}
+
+/*abah tambah css dari simbakda */
+	#body1 {
+		width:auto;
+		min-height:491px;
+		padding:10px;
+		border: 1px solid #D0D0D0;
+        background: rgb(180,227,145); /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover,  rgba(180,227,145,1) 0%, rgba(97,196,25,1) 85%, rgba(180,227,145,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(180,227,145,1)), color-stop(85%,rgba(97,196,25,1)), color-stop(100%,rgba(180,227,145,1))); /* Chrome,Safari4+ */
+background: -webkit-radial-gradient(center, ellipse cover,  rgba(180,227,145,1) 0%,rgba(97,196,25,1) 85%,rgba(180,227,145,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-radial-gradient(center, ellipse cover,  rgba(180,227,145,1) 0%,rgba(97,196,25,1) 85%,rgba(180,227,145,1) 100%); /* Opera 12+ */
+background: -ms-radial-gradient(center, ellipse cover,  rgba(180,227,145,1) 0%,rgba(97,196,25,1) 85%,rgba(180,227,145,1) 100%); /* IE10+ */
+background: radial-gradient(ellipse at center,  rgba(180,227,145,1) 0%,rgba(97,196,25,1) 85%,rgba(180,227,145,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4e391', endColorstr='#b4e391',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+		-webkit-box-shadow: 0 0 8px #D0D0D0;
+	}
+.loginbox {
+		width:400px;
+		margin:100px auto;
+		-webkit-border-radius: 10px;
+		border-radius: 10px;
+        border:#d2ff52 solid 1px;
+		-webkit-box-shadow: 0 0 8px #D0D0D0;
+       
+	}
+	
+	#title {
+		width:auto;
+		font-size:12px;
+		font-weight:bold;
+		text-align:center;
+		padding:5px 10px;
+		border-bottom:1px solid #D0D0D0;
+		-webkit-border-radius: 10px 10px 0px 0px;
+		border-radius: 10px 10px 0px 0px;
+		background: rgb(210,255,82); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(210,255,82,1) 0%, rgba(145,232,66,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(210,255,82,1)), color-stop(100%,rgba(145,232,66,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(210,255,82,1) 0%,rgba(145,232,66,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(210,255,82,1) 0%,rgba(145,232,66,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(210,255,82,1) 0%,rgba(145,232,66,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(210,255,82,1) 0%,rgba(145,232,66,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d2ff52', endColorstr='#91e842',GradientType=0 ); /* IE6-9 */
+		text-shadow: 0px 0px 1px #d2ff52;
+        filter: dropshadow(color=#d2ff52, offx=0, offy=0);
+		color:#339900;
+	}
+	#isi {
+		width:auto;
+		background:#FFFFFF;
+		padding:10px;
+		-webkit-border-radius: 0px 0px 10px 10px;
+		border-radius: 0px 0px 10px 10px;
+	}
+	.loginseparator {	
+		position: fixed;
+	    top:140px;
+		width:100%;
+		height:20px;
+		z-index: 70;
+		background-color: #7DDB58; /* Old browsers */
+	}
